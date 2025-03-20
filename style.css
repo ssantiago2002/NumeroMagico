@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("imagenes/union.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+input {
+    padding: 10px;
+    width: 60%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+#intentos {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+#mensaje {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#resto {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+#boton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
